@@ -1,0 +1,86 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    
+  } 
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #4373bb;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+  } 
+  header img {
+    position: absolute;
+    top: 0; /* Coloque a imagem no canto superior */
+    left: 0; /* Coloque a imagem no canto esquerdo */
+    width: 150px; /* Defina a largura desejada para a imagem */
+    height: auto; /* Mantenha a proporção da altura da imagem */
+  } 
+  .faq-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+   
+  }
+  .faq-container h1 {
+    text-align: center;
+    color: #000000;
+  }
+
+  .faq-item {
+   margin-top: 20px;
+   
+  }
+  .container1 {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1002; /* Defina um valor maior para que este contêiner fique sobre os outros */       
+    transition: top 0.3s ease; /* Adiciona uma transição suave de 0.3 segundos para a propriedade top */
+}
+
+.sticky {
+    top: -10px; /* Define a posição para onde o contêiner irá deslizar quando se tornar fixo */
+  }
+
+  .question {
+     color: #000000;
+     
+   }
+  .answer {
+    color: #000000;
+    text-decoration: none;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* Estilos para o rodapé */
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4373bb;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+} 

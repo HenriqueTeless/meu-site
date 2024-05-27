@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+/* Estilos para o cabeçalho */
+header {
+  background-color: #4373bb;
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+}
+header img {
+  position: absolute;
+  top: 0; /* Coloque a imagem no canto superior */
+  left: 0; /* Coloque a imagem no canto esquerdo */
+  width: 150px; /* Defina a largura desejada para a imagem */
+  height: auto; /* Mantenha a proporção da altura da imagem */
+} 
+  
+  .professors-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 1200px;
+    margin: 150px auto;
+  }
+  
+  .professor-item {
+    background-color: #ffffff;
+    border-radius: 0px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding: 30px;
+    margin-bottom: 0; /* Remover margem inferior */
+  }
+  
+  .professor-info {
+    padding: 20px;
+    border-radius: 0px;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 60px rgba(0, 0, 0, 0.1);
+  }
+  
+  .professor-info img {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  .container1 {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1002; /* Defina um valor maior para que este contêiner fique sobre os outros */       
+    transition: top 0.3s ease; /* Adiciona uma transição suave de 0.3 segundos para a propriedade top */
+}
+
+.sticky {
+    top: -10px; /* Define a posição para onde o contêiner irá deslizar quando se tornar fixo */
+  }
+
+  .info h2 {
+    margin-top: 0;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+  /* Estilos para o rodapé */
+  footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4373bb;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    
+}

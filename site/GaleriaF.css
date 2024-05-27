@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+
+}
+a{ 
+    color: rgb(41, 21, 129);
+
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #4373bb;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.container1 {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1002; /* Defina um valor maior para que este contêiner fique sobre os outros */       
+    transition: top 0.3s ease; /* Adiciona uma transição suave de 0.3 segundos para a propriedade top */
+}
+
+.sticky {
+    top: -10px; /* Define a posição para onde o contêiner irá deslizar quando se tornar fixo */
+  }
+
+header img {
+    position: absolute;
+    top: 0; /* Coloque a imagem no canto superior */
+    left: 0; /* Coloque a imagem no canto esquerdo */
+    width: 150px; /* Defina a largura desejada para a imagem */
+    height: auto; /* Mantenha a proporção da altura da imagem */
+  }
+  
+.galeria {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.galeria h2 {
+    text-align: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.fotos img {
+    margin: 10px; 
+    border-radius: 5px;
+    width: calc(25% - 20px);
+    height: auto;
+
+}
+@media (max-width: 600px){
+    .fotos img {
+        width: calc(50% - 20px);
+    }
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para o rodapé */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4373bb;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+}

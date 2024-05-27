@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--feito por Gabriel Henrique-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Professores</title>
+  <link rel="stylesheet" href="Professor.css">
+</head>
+
+<body>
+  <header class="container1">
+    <a href="setor.html">
+      <img src="UERJ11.png" alt="Imagem UERJ">
+    </a>
+    <h1>Lista de Professores</h1>
+    <nav>
+      <ul>
+
+        <li><a href="setor.html">Home</a></li>
+        <li><a href="GP.html">Grupo de pesquisa</a></li>
+        <li><a href="calendarioA.html">Calendário acadêmico</a></li>
+        <li><a href="CalendarioE.html">Calendário de Eventos</a></li>
+        <li><a href="Noticia-Eventos.html">Notícias e Eventos</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+      </ul>
+    </nav>
+    <script src="script2.js"></script>
+  </header>
+
+  <ul class="professors-list">
+    <h2>CHEFIA</h2>
+    <li class="professor-item" onclick="toggleInfo('chefe')">
+      CHEFE
+      <div id="chefe" class="professor-info" style="display: none;">
+        <div class="info">
+          <img src="chefe.jpg" alt="Imagem do Professor 1">
+          <h2> Paulo Eduardo Darski Rocha</h2>
+          <p>Possui graduação em Engenharia Elétrica Industrial pelo Centro Federal de Educação Tecnológica Celso Suckow
+            da Fonseca (CEFET-RJ) (2004), mestrado (2007) e doutorado (2013) em Sistemas de Potência pelo Programa de
+            Engenharia Elétrica da COPPE/UFRJ. Atualmente é professor adjunto do Departamento de Engenharia Elétrica da
+            Universidade do Estado do Rio de Janeiro (UERJ). Tem experiência nas áreas de instalações elétricas,
+            microgeração de energia, eficiência energética, linhas de transmissão e estudos transitórios
+            eletromagnéticos.</p>
+          <p>Contato: pauloedurocha@gmail.com</p>
+          <p>CNPq:<a href="http://lattes.cnpq.br/4436802802639988">Cv Lattes</a></p>
+          <p>Sala: 5006E</p>
+          <img id="imagem1" src="LK.png" alt="imagem do LK" width="51" height="56">
+          <img id="imagem1.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+          <img id="imagem1.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+          <script src="script1.js"></script>
+        </div>
+      </div>
+    </li>
+    <li class="professor-item" onclick="toggleInfo('subchefe')">
+      SUB CHEFE
+      <div id="subchefe" class="professor-info" style="display: none;">
+        <div class="info">
+          <img src="subchefe.jpg" alt="Imagem do Professor 1">
+          <h2> Harold Dias De Mello Junior</h2>
+          <p>Biografia: Bacharel (1999) e mestre em Engenharia Elétrica (2006) pela Universidade Federal do Pará. Doutor
+            em Engenharia Elétrica (2014) pela Pontifícia Universidade Católica do Rio de Janeiro. Atualmente é
+            professor adjunto do Departamento de Engenharia Elétrica da Faculdade de Engenharia da Universidade do
+            Estado do Rio de Janeiro (UERJ), ministrando diversas disciplinas do curso de graduação, incluindo as
+            relacionadas a Controle e Automação. Realizou pesquisas em neurociências, com ênfase em psicofísica visual,
+            na graduação; em telecomunicações, no mestrado; e em métodos de apoio à decisão, no doutorado. De 2004 a
+            2010 atuou como docente nos cursos de bacharelado em Administração e Ciências Contábeis, na área de
+            sistemas/tecnologias da informação. De 2005 a 2010, na função de Analista de Engenharia Comercial, atuou em
+            projetos/soluções de telecomunicações para o segmento B2B, como colaborador da Telemar Norte Leste S/A (Oi).
+            Tópicos de interesse: computação aplicada, inteligência computacional, controle e automação, sistemas de
+            telecomunicações, processamento de sinais, sistemas/tecnologias da informação.</p>
+          <p>Contato: harold.dias@gmail.com</p>
+          <p>CNPq:<a href="http://lattes.cnpq.br/3003315337750206">Cv Lattes</a></p>
+          <p>Sala: 5017D</p>
+          <img id="imagem1" src="LK.png" alt="imagem do LK" width="51" height="56">
+          <img id="imagem1.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+          <img id="imagem1.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+          <script src="script1.js"></script>
+        </div>
+      </div>
+    </li>
+    <ul class="professors-list">
+      <h2>Professores Efetivos</h2>
+      <li class="professor-item" onclick="toggleInfo('professor1')">
+        Antonio Guilherme Garcia Lima
+        <div id="professor1" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="AT.jpg" alt="Imagem do Professor 1">
+            <h2> Antonio Guilherme Garcia Lima</h2>
+            <p>Biografia: Possui graduação em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio de
+              Janeiro (1977), mestrado em Engenharia Elétrica pela Pontifícia Universidade Católica do Rio de Janeiro
+              (1987) e doutorado em Doutorado em Engenharia Elétrica pela Universidade Federal do Rio de Janeiro (1995).
+              Atualmente é professor adjunto da Universidade do Estado do Rio de Janeiro. Tem experiência na área de
+              Engenharia Elétrica, com ênfase em Sistemas Elétricos de Potência, atuando principalmente nos seguintes
+              temas: Geração de Energia Elétrica, Eletrônica de Potencia,Materiais Elétricos e Magnéticos e Inovação
+              Tecnológica.</p>
+            <p>Contato: antoniolima@uerj.br</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/9449630875925214">Cv Lattes</a></p>
+            <p>Sala: 101</p>
+            <img id="imagem1" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem1.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem1.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor2')">
+        Carlos Aparecido Ferreira
+        <div id="professor2" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="CL.jpg" alt="Imagem do Professor 2">
+            <h2>Carlos Aparecido Ferreira</h2>
+            <p>Biografia: Carlos Aparecido Ferreira é doutor em Engenharia Elétrica e está empregado na Eletrobras há 15
+              anos, onde ingressou por meio de concurso público (2003). É professor adjunto, de 20h, da Faculdade de
+              Engenharia da UERJ, sendo docente universitário há 5 anos. Foi professor contratado do Departamento de
+              Engenharia Elétrica do Cefet-RJ. Posteriormente ao ensino fundamental em colégios públicos, concluiu curso
+              técnico em Eletrotécnica (1996), graduação (2002) e mestrado (2003) em Engenharia Elétrica pela
+              Universidade Federal de Juiz de Fora (UFJF); especialização em Otimização de Sistemas Motrizes Industriais
+              (2004) pela Eletrobras e Federação das Indústrias do Estado de Minas Gerais (FIEMG); Pós-Graduação Lato
+              Sensu (2006) em Engenharia Econômica pela UERJ e doutorado em Engenharia Elétrica pela PUC-Rio. Trabalha
+              no Programa Nacional de Conservação de Energia Elétrica (Procel) e faz pesquisa na área de energia e de
+              sistemas elétricos de potência.</p>
+            <p>Contato: carlosaparecidoeng@gmail.com</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/0224584278303554">Cv Lattes</a></p>
+            <p>Sala: 102</p>
+            <img id="imagem2" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem2.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem2.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor3')">
+        Carlos Eduardo Leal
+        <div id="professor3" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="CE.jpg" alt="Imagem do Professor 3">
+            <h2>Carlos Eduardo Leal</h2>
+            <p>Biografia: Possui graduação em Física pela Universidade do Estado do Rio de Janeiro (1981), Mestrado em
+              Física pelo Centro Brasileiro de Pesquisas Físicas (1985) e Doutorado em Física pelo Centro Brasileiro de
+              Pesquisas Físicas (1990), Pós-Doutorado em Física na Alemanha (1992) e MBA em Meio Ambiente UFF-LATEC
+              (2007). Atualmente é Professor Associado da Universidade do Estado do Rio de Janeiro. Experiência em
+              pesquisa na área de Física da Matéria Condensada (materiais magnéticos, semicondutores e sistemas
+              fortemente correlacionados). Física Ambiental (mudanças climáticas e problemas ambientais globais).
+              Atualmente tem exercido atividades de consultoria em Gestão Ambiental (sustentabilidade empresarial,
+              energias renováveis e gerenciamento de resíduos). Consultor INEP/MEC para avaliação de IES.</p>
+            <p>Contato: ceduardo_leal@yahoo.com.br</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/5977306946641092">Cv Lattes</a></p>
+            <p>Sala: 6F</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor4')">
+        Cleiton Magalhães Freitas
+        <div id="professor4" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="CM.jpg" alt="Imagem do Professor 4">
+            <h2>Cleiton Magalhães Freitas</h2>
+            <p>Biografia: Possui Graduação em Engenharia Elétrica com Ênfase em Sistemas Eletrônicos pela Universidade
+              do Estado do Rio de Janeiro (UERJ), Mestrado em Engenharia Eletrônica, também pela UERJ e Doutorado em
+              Engenharia Elétrica pelo Instituto Alberto Luiz Coimbra de Pós-Graduação e Pesquisa de Engenharia (COPPE)
+              da Universidade Federal do Rio de Janeiro (UFRJ). Atualmente é professor adjunto do Departamento de
+              Engenharia Elétrica da Universidade do Estado do Rio de Janeiro, onde ministra aulas de conversão
+              eletromecânica de energia para o curso de graduação em engenharia elétrica. Além disso, é membro
+              permanente do Programa de Pós-Graduação em Engenharia Eletrônica da UERJ onde atua em disciplinas e
+              orientações relacionadas à eletrônica de potência e suas aplicações. Seus interesses de pesquisa incluem:
+              conversor modular multinível e seus modelos matemáticos analíticos; conversores formadores de rede;
+              integração de geração solar fotovoltaica e eólica com a rede elétrica e estabilidade de conversores
+              eletrônicos de energia.</p>
+            <p>Contato: cleiton.freitas@uerj.br</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/8580465355265899">Cv Lattes</a></p>
+            <p>Sala: 5145F</p>
+            <img id="imagem3" src="ID.jpg" alt="imagem do ID" width="51" height="56">
+            <img id="imagem3.5" src="RC.png" alt="imagem do RC" width="51" height="56">
+            <img id="imagem3.99" src="GT.jpg" alt="Imagem GT" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor5')">
+        Francisco Antônio Reis Filho
+        <div id="professor5" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="NT.gif" alt="Imagem do Professor 4">
+            <h2>Francisco Antônio Reis Filho</h2>
+            <p>Biografia: Possui graduação em Engenharia Elétrica pela Universidade Veiga de Almeida (1981), mestrado em
+              Engenharia Elétrica pela Universidade de São Paulo (1993) e doutorado em Engenharia Elétrica pela
+              Universidade de São Paulo (2002). Possui mais de 35 anos de experiência na área de Sistemas de Potência
+              adquiridos nas Empresas FURNAS,ABB,GE,SEL e SEG com enfoque em Proteção de Sistemas Elétricos e estudos
+              elétricos em geral. Atualmente atua em atividades de consultoria,ensino e pesquisa nas seguintes áreas
+              :Proteção, desenvolvimento de algoritmos, estudos de Transitórios em Sistemas,acesso e outros. Essas
+              atividades são executadas através de sua empresa a FARFILHO CONSULTORIA COMÉRCIO E REPRESENTAÇÕES
+              LTDA(www.farfilho.com.br). A partir do segundo semestre de 2015 assumiu através de Concurso Público as
+              cadeiras de Proteção de Sistemas de Energia I e II(Teoria e Laboratório) no curso de graduação em
+              Engenharia Elétrica na UERJ com carga horária de 40 horas(Professor Assistente).Aprovado também através de
+              concurso Público para o cargo de Professor Adjunto da disciplina de Análise de Sistemas de Potência na
+              UERJ com carga horária de 24 horas.Atualmente ministra as cadeiras de Proteção de Sistemas Elétricos I e
+              II, Máquinas Elétricas I e II, Circuitos Elétricos III e Análise de Sistemas de Potência I e II.</p>
+            <p>Contato: farfilho@ig.com.br</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/2803698738314662">Cv Lattes</a></p>
+            <p>Sala: 104</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor6')">
+        Harold Dias De Mello Junior
+        <div id="professor6" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="subchefe.jpg" alt="Imagem do Professor 4">
+            <h2>Eduardo da Silva</h2>
+            <p>Biografia: Bacharel (1999) e mestre em Engenharia Elétrica (2006) pela Universidade Federal do Pará.
+              Doutor em Engenharia Elétrica (2014) pela Pontifícia Universidade Católica do Rio de Janeiro. Atualmente é
+              professor adjunto do Departamento de Engenharia Elétrica da Faculdade de Engenharia da Universidade do
+              Estado do Rio de Janeiro (UERJ), ministrando diversas disciplinas do curso de graduação, incluindo as
+              relacionadas a Controle e Automação. Realizou pesquisas em neurociências, com ênfase em psicofísica
+              visual, na graduação; em telecomunicações, no mestrado; e em métodos de apoio à decisão, no doutorado. De
+              2004 a 2010 atuou como docente nos cursos de bacharelado em Administração e Ciências Contábeis, na área de
+              sistemas/tecnologias da informação. De 2005 a 2010, na função de Analista de Engenharia Comercial, atuou
+              em projetos/soluções de telecomunicações para o segmento B2B, como colaborador da Telemar Norte Leste S/A
+              (Oi). Tópicos de interesse: computação aplicada, inteligência computacional, controle e automação,
+              sistemas de telecomunicações, processamento de sinais, sistemas/tecnologias da informação.</p>
+            <p>Contato: harold.dias@gmail.com</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/3003315337750206">Cv Lattes</a></p>
+            <p>Sala: 5017D</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor7')">
+        João Colucci Fragozo
+        <div id="professor7" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="NT.gif" alt="Imagem do Professor 4">
+            <h2>João Colucci Fragozo</h2>
+            <p>Biografia: possui graduação em Engenharia Elétrica, modalidade Eletrônica pela PONTIFICIA UNIVERSIDADE
+              CATOLICA DO RIO DE JANEIRO(1971)</p>
+            <p>Contato: joaofragozo@terra.com.br</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/9117668082516028">Cv Lattes</a></p>
+            <p>Sala: 104</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor8')">
+        José Eduardo T. Villas
+        <div id="professor8" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="NT.gif" alt="Imagem do Professor 4">
+            <h2>José Eduardo T. Villas</h2>
+            <p>Biografia: </p>
+            <p>Contato: marte@marteng.com.br</p>
+            <p>Sala: 104</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor9')">
+        Leny Medeiros Silva
+        <div id="professor9" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="NT.gif" alt="Imagem do Professor 4">
+            <h2>Leny Medeiros Silva</h2>
+            <p>Biografia: possui mestradoem Engenharia Biomédica pela Programa de Engenharia Biomédica(1995) .
+              Atualmente é ProfessordaFaculdade de Engenharia. Tem experiência na área de Engenharia Biomédica, com
+              ênfase em Engenharia Médica.</p>
+            <p>Contato: albertovieira@superig.com.br</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/4347622676653494">Cv Lattes</a></p>
+            <p>Sala: 104</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor10')">
+        Leonardo Alfredo Forero Mendoza
+        <div id="professor10" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="LA.jpg" alt="Imagem do Professor 4">
+            <h2>Leonardo Alfredo Forero Mendoza</h2>
+            <p>Biografia: Possui graduação em engenharia electrônica - Universidad Pontificia Bolivariana (2002),
+              mestrado em engenharia de telecomunicações pela Universidade Federal Fluminense (2009) e Doutorado em
+              Engenharia Elétrica pela Pontifícia Universidade Católica do Rio de Janeiro (2013). Atualmente, é
+              Professor Adjunto de Engenharia Elétrica na UERJ. Tem experiência na área de Engenharia Elétrica, atuando
+              principalmente nos seguintes temas: machine learning, Deep learning. Possui mais de 12 anos de experiência
+              como supervisor, gerente e coordenador em projetos P&D.</p>
+            <p>Contato: leofome@hotmail.com</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/3442791776168904">Cv Lattes</a></p>
+            <p>Sala: 104</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor11')">
+        Luis Chiganer
+        <div id="professor11" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="LC.jpg" alt="Imagem do Professor 4">
+            <h2>Luis Chiganer</h2>
+            <p>Biografia: Possui graduação em Engenharia Eletrica pela Universidade Federal do Rio de Janeiro (1974) e
+              mestrado em Engenharia Eletrica pela Universidade Federal do Rio de Janeiro, COPPE (1981). Tem experiência
+              na área de Engenharia Elétrica, com ênfase em Geração e Transmissão de Energia Elétrica; Trabalhou nas
+              seguintes empresas: PTEL Ltda; Furnas Centrais Elétricas; UVA - Universidade Veiga de Almeida; UERJ -
+              Universidade do estado do Rio de Janeiro. Atualmente se dedica a área de ensino como professor e
+              consultorias em engenharia. Atualmente esta em fase de preparação de doutorado.</p>
+            <p>Contato: lchiganer@gmail.com</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/5118115339891441">Cv Lattes</a></p>
+            <p>Sala: 104</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor12')">
+        Otto Wanner Ganvini Asencios
+        <div id="professor12" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="otto.jpg" alt="Imagem do Professor 4">
+            <h2>Otto Wanner Ganvini Asencios</h2>
+            <p>Biografia: Possui graduação em Engenharia Elétrica - Universidad Nacional de Callao (1994), mestrado em
+              Engenharia Elétrica pela Universidade Federal do Rio de Janeiro (2000) e doutorado em Engenharia Elétrica
+              pela Universidade Federal do Rio de Janeiro (2009) e pós Doutorado em Engenharia Elétrica pela
+              Universidade Federal do Rio de Janeiro (2010). Tem experiência na área de Sistemas de Potência, com ênfase
+              em Estabilidade e transitórios eletromagnéticos, Alternativas não Convencionais para a Transmissão de
+              Energia Elétrica em Longas Distâncias, Estudos de ilhamentos em Sistemas de Potência.</p>
+            <p>Contato: ottowga@gmail.com</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/4799447412720303">Cv Lattes</a></p>
+            <p>Sala: 6F</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor13')">
+        Paulo Cesar De Almeida
+        <div id="professor13" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="NT.gif" alt="Imagem do Professor 4">
+            <h2>Paulo Cesar De Almeida</h2>
+            <p>Biografia: Graduado - UERJ em 1973 e Mestrado em Engenharia Elétrica - PUC-RJ em 2002. Engenheiro de
+              Equipamentos da Petrobras de 1974 a 1978. Trabalhou em Planejamento da Operação e da Expansão do Sistema
+              Elétrico Brasileiro na ELETROBRAS de 1978 a 2009, chegando à gerência do Departamento de Engenharia de
+              Transmissão. Atualmente Professor da UERJ atuando na área de Controle e Automação desde 1983. Professor da
+              USU de 1976 a 1998 e do CEFET-RJ em 1981. Experiência em estudos de Controle e Proteção de Sistemas
+              Elétricos de Potência, com particular interesse em esquemas especiais de proteção contra blecautes e
+              instabilidade.</p>
+            <p>Contato: almeidpc@gmail.com</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/2881841623131860">Cv Lattes</a></p>
+            <p>Sala: 104</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor14')">
+        Paulo Eduardo Darski Rocha
+        <div id="professor14" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="chefe.jpg" alt="Imagem do Professor 4">
+            <h2>Paulo Eduardo Darski Rocha</h2>
+            <p>Biografia: Possui graduação em Engenharia Elétrica Industrial pelo Centro Federal de Educação Tecnológica
+              Celso Suckow da Fonseca (CEFET-RJ) (2004), mestrado (2007) e doutorado (2013) em Sistemas de Potência pelo
+              Programa de Engenharia Elétrica da COPPE/UFRJ. Atualmente é professor adjunto do Departamento de
+              Engenharia Elétrica da Universidade do Estado do Rio de Janeiro (UERJ). Tem experiência nas áreas de
+              instalações elétricas, microgeração de energia, eficiência energética, linhas de transmissão e estudos
+              transitórios eletromagnéticos.</p>
+            <p>Contato: pauloedurocha@gmail.com</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/4436802802639988">Cv Lattes</a></p>
+            <p>Sala: 5006E</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor15')">
+        Paulo Gomes
+        <div id="professor15" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="NT.gif" alt="Imagem do Professor 4">
+            <h2>Paulo Gomes</h2>
+            <p>Biografia: possui graduação em Engenharia Elétrica pela Universidade do Estado do Rio de Janeiro(1973) ,
+              especialização em MBA pelo Fundação Getúlio Vargas - RJ(1995) , mestradoem Engenharia Elétrica pela
+              Universidade Federal de Itajubá(1976) e doutoradoem Engenharia Elétrica pela Universidade Federal de
+              Itajubá(2001) . Atualmente é Gerente da área de Estudos Especiais, ProteçãdaOperador Nacional do Sistema
+              Elétrico e Professor TitulardaUniversidade do Estado do Rio de Janeiro.</p>
+            <p>Contato: pgomes@ons.org.br</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/0355986390212186"> Cv Lattes</a></p>
+            <p>Sala: 104</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor16')">
+        Roberto Nogueira Fontoura Filho
+        <div id="professor16" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="NT.gif" alt="Imagem do Professor 4">
+            <h2>Roberto Nogueira Fontoura Filho</h2>
+            <p>Biografia: Possui graduação em Engenharia Elétrica pelo Instituto Militar de Engenharia(1979) e doutorado
+              em Engenharia Elétrica pela Universidade Federal do Rio de Janeiro(1994).</p>
+            <p>Contato: robertofontoura@uol.com.br</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/5046514505860252">Cv Lattes</a></p>
+            <p>Sala: 104</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor17')">
+        Roberto Vigoderis
+        <div id="professor17" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="NT.gif" alt="Imagem do Professor 4">
+            <h2>Roberto Vigoderis</h2>
+            <p>Biografia: </p>
+            <p>Contato: robertovigoderis@globo.com</p>
+            <p>Sala: 6F </p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor18')">
+        Rômulo De Sales G. Filho
+        <div id="professor18" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="NT.gif" alt="Imagem do Professor 4">
+            <h2>Rômulo De Sales G. Filho</h2>
+            <p>Biografia: </p>
+            <p>Contato: romulo.goncalves@light.com.br</p>
+            <p>Sala: 104</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor19')">
+        Ronaldo Bosignoli
+        <div id="professor19" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="NT.gif" alt="Imagem do Professor 4">
+            <h2>Ronaldo Bosignoli</h2>
+            <p>Biografia: Possui graduação em Engenharia Elétrica pela Universidade Federal do Rio de Janeiro (1977),
+              mestrado em Engenharia Elétrica pela Universidade Federal do Rio de Janeiro (1983) e doutorado em
+              Engenharia Biomédica pela Universidade Federal do Rio de Janeiro (2001). Atualmente é professor da
+              Universidade Estado do Rio de Janeiro, UERJ. Tem experiência na área de Engenharia Elétrica, com ênfase em
+              Transmissão da Energia Elétrica e Distribuição da Energia Elétrica, adquirida no CEPEL, de 1977 a 2013,
+              onde atuou principalmente nos seguintes temas: poluição em isoladores, linhas de transmissão, ensaios de
+              poluição, 60 hz e redes neurais artificiais.</p>
+            <p>Contato: rbduzentos@gmail.com</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/2238101805015208">Cv Lattes</a></p>
+            <p>Sala: 104</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+      <li class="professor-item" onclick="toggleInfo('professor20')">
+        Sergio Escalante
+        <div id="professor20" class="professor-info" style="display: none;">
+          <div class="info">
+            <img src="SE.jpg" alt="Imagem do Professor 4">
+            <h2>Sergio Escalante</h2>
+            <p>Biografia: Possui graduação em Engenharia de Eletricidade - Universidad Nacional de Ingenieria - UNI
+              (2001), Perú, Mestrado em Engenharia de Eletricidade pela Universidade Federal do Maranhão (2005) e
+              Doutorado pela COPPE - Universidade Federal do Rio de Janeiro, Brasil. Tem experiência na área de
+              Engenharia Elétrica, com ênfase em Transmissão da Energia Elétrica, Distribuição da Energia Elétrica,
+              atuando principalmente nos seguintes temas: sistemas eléctricos de potência, controladores FACTS e HVDC,
+              fluxo de potência, oscilações eletromecânicas, estabilizadores de sistemas de potência, unidades de
+              medição fasorial-PMU, dependability e ilhamento automático. Professor Adjunto da Universidade do Estado do
+              Rio de Janeiro - UERJ.</p>
+            <p>Contato: slescalante@ieee.org</p>
+            <p>CNPq:<a href="http://lattes.cnpq.br/7741290709085869">Cv Lattes</a></p>
+            <p>Sala: 5017-D</p>
+            <img id="imagem4" src="LK.png" alt="imagem do LK" width="51" height="56">
+            <img id="imagem4.5" src="INS.jpg" alt="imagem do ins" width="51" height="56">
+            <img id="imagem4.99" src="TW.png" alt="Imagem TW" width="50" height="54">
+            <script src="script1.js"></script>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <footer>
+      <p>&copy; 2024 Departamento de Engenharia Elétrica, Faculdade XYZ. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

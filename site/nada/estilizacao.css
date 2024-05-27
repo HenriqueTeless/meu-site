@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:\Users\Daniele\Desktop\projetosite\site');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+a{ color: rgb(41, 21, 129);}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #4373bb;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#cursos {
+    background-color: #f0f0f0; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+    position: relative; /* Posição relativa para o balão */
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+#cursos::before {
+    content: '';
+    position: absolute;
+    top: -20px; /* Posicionamento vertical do balão */
+    left: 50%; /* Posicionamento horizontal do balão */
+    transform: translateX(-50%); /* Centralizando o balão horizontalmente */
+    border-width: 10px; /* Tamanho do balão */
+    border-style: solid;
+    border-color: #f0f0f0 transparent transparent transparent; /* Cores da borda do balão */
+}
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #4373bb;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+}
